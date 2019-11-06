@@ -10,7 +10,7 @@ export default {
     }
   },
   async asyncData (ctx) {
-    let id = ctx.query.id
+    let id = ctx.params.id
     const result = await ctx.$axios.$get('https://cnodejs.org/api/v1/topic/' + id)
     const content = result.data.content
     return { content }

@@ -3,7 +3,7 @@
     新闻列表
     <ul>
       <li v-for="item of list">
-        <a :href="`/p?id=${item.id}`">{{ item.title }}</a>
+        <a :href="`/news/${item.id}`" target="_blank">{{ item.title }}</a>
       </li>
     </ul>
   </div>
