@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <logo />
-    
-    <a href="/news">新闻列表</a>
+
+    <nuxt-link to="/news">新闻列表</nuxt-link>
   </div>
 </template>
 
