@@ -8,7 +8,7 @@
       <h2 class="subtitle">
         My incredible Nuxt.js project
       </h2>
-      <div class="links">
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -23,7 +23,7 @@
         >
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
