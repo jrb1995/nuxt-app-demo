@@ -3,7 +3,7 @@
     新闻列表
     <ul>
       <li v-for="item of list">
-        <a :href="`/news/${item.id}`" target="_blank">{{ item.title }}</a>
+        <nuxt-link :to="`/news/${item.id}`" target="_blank">{{ item.title }}</nuxt-link>
       </li>
     </ul>
   </div>
