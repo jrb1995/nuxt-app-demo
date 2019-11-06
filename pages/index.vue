@@ -1,30 +1,8 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        nuxt-app-demo
-      </h1>
-      <h2 class="subtitle">
-        My incredible Nuxt.js project
-      </h2>
-      <!-- <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div> -->
-    </div>
+    <logo />
+    
+    <a href="/news">新闻列表</a>
   </div>
 </template>
 
